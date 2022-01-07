@@ -1,5 +1,5 @@
 # Probeserver Docker Container
-This Docker container facilitates experimenting researching the self-healing capabilities afforded by Kubernetes to help manage issues encountered during the pod lifecycle.
+This Docker container facilitates researching the self-healing capabilities afforded by Kubernetes to help manage issues encountered during the pod lifecycle.
 This container can be coerced into doing the following through the use of environment variables.
 - **CONTENT**: Customize what is returned in the response to a GET request made to the apex route.
 - **CRASH_FACTOR**: Crash with a certain frequency on launch.
