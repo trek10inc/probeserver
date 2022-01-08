@@ -17,7 +17,7 @@ Additionally, the following functionality can be accessed via URLs served by the
 
 This container was built to accompany a blog post series detailing various caveats of managing the Kubernetes pod lifecycle. Please reference the following link for more specifics on how it is used.
 
-[Preparing for and real-world Kubernetes Deployments Part 1](https://www.trek10.com/blog/preparing-for-and-real-world-kubernetes-deployments-part-2)
+[Preparing for and real-world Kubernetes Deployments Part 2](https://www.trek10.com/blog/preparing-for-and-real-world-kubernetes-deployments-part-2)
 ## Customize apex route response content
 For the purposes of the blog post series this container was built for, configuring what the application server includes in its response was meant to provide a way to distinguish between different commits being deployed to a cluster. 
 ## Crash on launch
