@@ -38,6 +38,8 @@ class WebServerHandler(BaseHTTPRequestHandler):
                 if content == "EMPTY":
                     content = "Hostname = " + my_hostname + "\n"
                     content += "Ip Address = " + my_ip_address + "\n"
+                else:
+                    content += "\n"
                 self.wfile.write(content.encode("utf-8"))
             elif current_request.path == "/crash":
                 print('Crashing container')
