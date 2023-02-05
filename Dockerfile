@@ -1,12 +1,11 @@
-FROM amazonlinux:latest
+FROM alpine:latest
 
 USER root
 WORKDIR /
 
-RUN yum update -y && \
-    yum install -y python3
-
-RUN yum clean all && rm -rf /var/cache/yum
+RUN apk update && \
+    apk add python3 && \
+    rm -rf /var/cache/apk/*
 
 COPY run.py /tmp
 
